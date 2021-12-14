@@ -4,7 +4,7 @@ const path = require('path');
 const express = require('express');
 const chalk = require('chalk')
 const blog = express();
-const baseDir = __dirname + '../blog'; 
+const baseDir = '/home/deploy/blog'
 blog.use(express.static(path.resolve(baseDir)))
  
 blog.get('*', function(req, res) {
