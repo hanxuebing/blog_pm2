@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "pm2启动blog",
+  "main": "index.js",
+  "scripts": {
+    "pm2:start": "pm2 start blog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanxuebing/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanxuebing/blog/issues"
+  },
+  "homepage": "https://github.com/hanxuebing/blog#readme",
+  "dependencies": {
+    "pm2": "^5.1.2",
+    "express": "^4.17.1"
+  }
+}
